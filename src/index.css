@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  /* font-family: "Hammersmith One"; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #00131e;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 0;
+  background-color: #00131e;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  color: #d2ae6d;
+  margin: 0 1rem;
+}
+
+.nav-link:hover {
+  color: #ffc107;
+}
+
+.btn-warning {
+  background-color: #d2ae6d;
+  margin-right: 10px;
+}
+
+.btn-outline-warning {
+  color: #d2ae6d;
+  margin-right: 1.5rem;
+}
+
+.form-control {
+  border: 1px solid #d2ae6d;
+  background: transparent;
+}
+
+.form-control:focus {
+  background-color: transparent;
+}
+
+.form-control::placeholder {
+  color: #d2ae6d;
+  opacity: 50%;
+}
+
+.form-control::selection {
+  color: #d2ae6d;
+}
+
+.text-body-emphasis {
+  color: #d2ae6d !important;
+}
+
+.act-btn {
+  margin-top: 2rem;
+}
+
+.card-body {
+  background-color: #d2ae6d;
+}
+
+/* .btn-sm {
+
+  color: #00131e;
+} */
+
+.border-bottom {
+  --bs-border-color: #00131e;
+  border-bottom: var(--bs-border-width) var(--bs-border-style)
+    var(--bs-border-color) !important;
+}
+
+.event-heading {
+  color: #d2ae6d;
+}
+
+.text-body-secondary {
+  --bs-secondary-color: #d2ae6d;
+  --bs-text-opacity: 1;
+  color: var(--bs-secondary-color) !important;
+}
+
+.service-subheading {
+  color: #d2ae6d;
+  opacity: 60%;
+  margin-top: 2rem;
+}
+
+.btn-outline-success {
+  font-weight: 500;
+}
+
+.card {
+  --bs-border-width: 0px;
+  --bs-card-border-width: var(--bs-border-width);
+  --bs-card-border-color: var(--bs-border-color-transparent);
+}
+
+.card-text {
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.username {
+  color: #d2ae6d;
+}
+
+.log-out-btn {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 400;
+  color: #d2ae6d;
+  margin: 4rem;
+}
+
+.lead {
+  color: #d2ae6d;
+  opacity: 70%;
+  text-align: center;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
